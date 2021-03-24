@@ -334,18 +334,18 @@ class Classifier(nn.Module):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='This is a script to train ngg16.')
+    parser = argparse.ArgumentParser(description='This is a script to train vgg16.')
     # parser.add_argument('--foo', action='store_true', help='foo help')
     # subparsers = parser.add_subparsers(help='sub-command help')
     '''
     
-    Basic usage: python OLDtrain.py data_directory
+    Basic usage: python train.py data_directory
     Prints out training loss, validation loss, and validation accuracy as the network trains
     Options:
-        Set directory to save checkpoints: python OLDtrain.py data_dir --save_dir save_directory
-        Choose architecture: python OLDtrain.py data_dir --arch "vgg13"
-        Set hyperparameters: python OLDtrain.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
-        Use GPU for training: python OLDtrain.py data_dir --gpu
+        Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
+        Choose architecture: python train.py data_dir --arch "vgg13"
+        Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
+        Use GPU for training: python train.py data_dir --gpu
 
     '''
 
