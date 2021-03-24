@@ -181,7 +181,7 @@ class PredictFlowerName:
         return current_device
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='This tool predicts the clasf of an Image.')
+    parser = argparse.ArgumentParser(description='This tool predicts the class of an Image.')
     # parser.add_argument('--foo', action='store_true', help='foo help')
     # subparsers = parser.add_subparsers(help='sub-command help')
 
